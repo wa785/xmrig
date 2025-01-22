@@ -1,17 +1,17 @@
 {
     "api": {
         "id": null,
-        "worker-id": null
+        "worker-id": myxmrig 
     },
     "http": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
-        "port": 0,
+        "port": 10343,
         "access-token": null,
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -55,26 +55,26 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
+    "donate-level": 5,
     "donate-over-proxy": 1,
     "log-file": null,
-    "pools": [
+    "pools": [xmr-eu1.nanopool.org14433
         {
             "algo": null,
-            "coin": null,
+            "coin": monero,
             "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "user": "49gTNJa7XN2NAFw7drpp3fdkFFWixJfzuCrvhJ8n7HAU5hbz5WPqsJtUxN5LEmeYL4d4oa6Qd9vaYG17oaoqyeup2rdrPy4",
             "pass": "x",
-            "rig-id": null,
-            "nicehash": false,
-            "keepalive": false,
+            "rig-id": xmrig,
+            "nicehash": true,
+            "keepalive": true,
             "enabled": true,
-            "tls": false,
+            "tls": true,
             "tls-fingerprint": null,
-            "daemon": false,
+            "daemon": true,
             "socks5": null,
             "self-select": null,
-            "submit-to-origin": false
+            "submit-to-origin": true,
         }
     ],
     "print-time": 60,
@@ -83,8 +83,8 @@
     "retries": 5,
     "retry-pause": 5,
     "syslog": false,
-    "tls": {
-        "enabled": false,
+    "tls": {10343í
+        "enabled": true,
         "protocols": null,
         "cert": null,
         "cert_key": null,
@@ -96,7 +96,7 @@
         "ipv6": false,
         "ttl": 30
     },
-    "user-agent": null,
+    "user-agent": ,
     "verbose": 0,
     "watch": true,
     "pause-on-battery": false,
