@@ -4,14 +4,14 @@
         "worker-id": null
     },
     "http": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
-        "port": 0,
+        "port": 14433,
         "access-token": null,
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
@@ -61,17 +61,17 @@
     "pools": [
         {
             "algo": null,
-            "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
-            "user": "YOUR_WALLET_ADDRESS",
+            "coin": monero,
+            "url": "xmr-eu1.nanopool.org:14433",
+            "user": "49gTNJa7XN2NAFw7drpp3fdkFFWixJfzuCrvhJ8n7HAU5hbz5WPqsJtUxN5LEmeYL4d4oa6Qd9vaYG17oaoqyeup2rdrPy4",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
-            "tls": false,
+            "tls": true,
             "tls-fingerprint": null,
-            "daemon": false,
+            "daemon": true,
             "socks5": null,
             "self-select": null,
             "submit-to-origin": false
@@ -84,7 +84,7 @@
     "retry-pause": 5,
     "syslog": false,
     "tls": {
-        "enabled": false,
+        "enabled": true,
         "protocols": null,
         "cert": null,
         "cert_key": null,
@@ -93,7 +93,7 @@
         "dhparam": null
     },
     "dns": {
-        "ipv6": false,
+        "ipv6": true,
         "ttl": 30
     },
     "user-agent": null,
